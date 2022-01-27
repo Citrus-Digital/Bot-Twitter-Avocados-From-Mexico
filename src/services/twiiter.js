@@ -89,7 +89,6 @@ const getLimit = (count = 0) => {
     return Math.ceil(limit/60);
 }
 
-
 const searchNewTweets = async () => {
     try {
         const triggers = getTriggers(getTimeNow(false, true));
@@ -134,6 +133,9 @@ const saveTweets = async (data, trigger) => {
         const tweets = data.statuses.reverse();
 
         for (let tweet of tweets) {
+            if (tweet.user.screen_name == process.env.TWITTER_ACCOUNT) {
+                continue;
+            }
             const msg = getResponses(trigger.result.responses)
             const tweetReply = `@${tweet.user.screen_name} ${msg.response}`; 
 
