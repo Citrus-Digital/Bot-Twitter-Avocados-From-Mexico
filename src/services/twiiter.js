@@ -117,18 +117,16 @@ const searchNewTweets = async () => {
                 params.since_id = parseInt(tweetSinceId.tweet_id);
             }
 
-            console.log('searchNewTweets: ', params)
-
             const found = await T.get('search/tweets', params);
 
             if (!found?.data || !found.data.statuses.length) {
-                console.log(`searchNewTweets: no tweets were found at ${getTimeNow(false, true)}`);
-                return;
+                console.log(`searchNewTweets: no tweets were found at ${getTimeNow(false, true)} this trigger ${trigger.trigger}`);
+                continue;
             }
 
-            console.log(`searchNewTweets: ${found.data.statuses.length} tweets were found at ${getTimeNow(false, true)}`);
+            console.log(`searchNewTweets: ${found.data.statuses.length} tweets were found at ${getTimeNow(false, true)} this trigger ${trigger.trigger}`);
             
-            saveTweets(found.data, trigger)
+            await saveTweets(found.data, trigger)
         }
     } catch (error) {
         console.log('error on getNewTweets: ', error);   
