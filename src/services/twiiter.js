@@ -1,8 +1,9 @@
 const { T } = require('../config/twit');
 const { getResponses, getTriggers } = require('./messages');
-const { getTimeNow, getRandomIntInclusive } = require('./utils');
+const { getTimeNow, getRandomIntInclusive, sleep } = require('./utils');
 const { TweetModel } = require('../models/tweets');
 const { SentModel } = require('../models/sent');
+const { valid } = require('joi');
 
 const tweetIt = async (tweet, date, hour) => {
     try {
@@ -75,8 +76,18 @@ const sendTweets = async () => {
 
         console.log(`sendTweets: ${tweetPeding.length} tweets were found at ${getTimeNow(false, true)}`);
 
+        let index = 0;
         for (const tweet of tweetPeding) {
+            let sleepTime = 0;
+            if (index === 0) {
+                sleepTime = getRandomIntInclusive(1000, 8000);
+                await sleep(sleepTime);
+            } else {
+                sleepTime = getRandomIntInclusive(20000, 35000)
+                await sleep(sleepTime);
+            }
             await tweetIt(tweet, date, hour);
+            index++;
         }
     } catch (error) {
         console.log('error on sendTweets: ', error);        
