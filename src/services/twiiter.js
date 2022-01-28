@@ -106,13 +106,11 @@ const searchNewTweets = async () => {
         
         console.log(
             `search ${triggers.length} trigger at ${getTimeNow(false, true)}`, 
-            triggers.map(trigger => trigger.triggers)
+            triggers.map(trigger => trigger.trigger)
         );
 
         for (const trigger of triggers) {
-            const triggerCurrent = formatTriggersToTwitter(trigger.triggers);
-
-            let params = { q: `${triggerCurrent} since:${getTimeNow(true)}`, count: 100 };
+            let params = { q: `${trigger.trigger} since:${getTimeNow(true)}`, count: 100 };
             const tweetSinceId = await TweetModel.findOne({ trigger_id: trigger.id }, { tweet_id: 1 }).sort({created_at: -1})
     
             if ( tweetSinceId ) {
@@ -122,20 +120,20 @@ const searchNewTweets = async () => {
             const found = await T.get('search/tweets', params);
 
             if (!found?.data || !found.data.statuses.length) {
-                console.log(`searchNewTweets: no tweets were found at ${getTimeNow(false, true)} this trigger ${triggerCurrent}`);
+                console.log(`searchNewTweets: no tweets were found at ${getTimeNow(false, true)} this trigger ${trigger.trigger}`);
                 continue;
             }
 
-            console.log(`searchNewTweets: ${found.data.statuses.length} tweets were found at ${getTimeNow(false, true)} this trigger ${triggerCurrent}`);
+            console.log(`searchNewTweets: ${found.data.statuses.length} tweets were found at ${getTimeNow(false, true)} this trigger ${trigger.trigger}`);
             
-            await saveTweets(found.data, trigger, triggerCurrent)
+            await saveTweets(found.data, trigger)
         }
     } catch (error) {
         console.log('error on getNewTweets: ', error);   
     }
 }
 
-const saveTweets = async (data, trigger, triggerCurrent) => {
+const saveTweets = async (data, trigger) => {
     try {
         if (!data.statuses.length) {
             return;
@@ -145,19 +143,18 @@ const saveTweets = async (data, trigger, triggerCurrent) => {
 
         for (let tweet of tweets) {
             if (
-                tweet.user.screen_name == process.env.TWITTER_ACCOUNT || 
+                tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
                 (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
             ) {
                 continue;
             }
-
             const msg = getResponses(trigger.result.responses)
             const tweetReply = `@${tweet.user.screen_name} ${msg.response}`; 
 
             try {
                 await new TweetModel({
                     trigger_id: trigger.id,
-                    trigger: triggerCurrent,
+                    trigger: trigger.trigger,
                     tweet_reply: tweetReply,
                     tweet_id: tweet.id,
                     tweet_id_str: tweet.id_str,
@@ -172,10 +169,6 @@ const saveTweets = async (data, trigger, triggerCurrent) => {
     } catch (error) {
         console.log('error on saveTweets: ', error)
     }
-}
-
-const formatTriggersToTwitter = (triggers) => {
-    return triggers.join(' + ');
 }
 
 module.exports =  {

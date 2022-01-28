@@ -1,7 +1,7 @@
 module.exports = [
     { 
         id: 2,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'kitchen'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "kitchen"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -31,7 +31,7 @@ module.exports = [
     },
     { 
         id: 3,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'avocado bag'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "avocado bag"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -61,7 +61,7 @@ module.exports = [
     },
     { 
         id: 4,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'blanket'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "blanket"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -91,7 +91,7 @@ module.exports = [
     },
     { 
         id: 5,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'avocado pajamas'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "avocado pajamas"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -121,7 +121,7 @@ module.exports = [
     },
     { 
         id: 6,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'t-shirt'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "t-shirt"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -151,7 +151,7 @@ module.exports = [
     },
     { 
         id: 7,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'win this outfit'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "win this outfit"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -181,7 +181,7 @@ module.exports = [
     },
     { 
         id: 8,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'jersey'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "jersey"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -211,7 +211,7 @@ module.exports = [
     },
     { 
         id: 9,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'chilling'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "chilling"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -241,7 +241,7 @@ module.exports = [
     },
     { 
         id: 10,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#SBLVI', "'guac the house'"],
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + "guac the house"',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
@@ -275,7 +275,7 @@ module.exports = [
     },
     { 
         id: 12,
-        triggers: ['#AlwaysGood', '#Sweepstakes', '#Dog','#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #Dog',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -311,7 +311,7 @@ module.exports = [
     },
     { 
         id: 13,
-        triggers: ['#AlwaysGood', '#Sweepstakes' , '#AvoGlowUp', '#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #AvoGlowUp',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -347,7 +347,7 @@ module.exports = [
     },
     { 
         id: 14,
-        triggers: ['#AlwaysGood', '#Sweepstakes' , '#News', '#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #News',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -383,7 +383,7 @@ module.exports = [
     },
     { 
         id: 15,
-        triggers: ['#AlwaysGood', '#Sweepstakes' , '#AvoArt', '#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #AvoArt',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -419,7 +419,7 @@ module.exports = [
     },
     { 
         id: 16,
-        triggers: ['#AlwaysGood', '#Sweepstakes' , '#Caesar', '#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #Caesar',
         responses: [
             {
                 start: '2022-02-09 00:00:00',
@@ -455,7 +455,7 @@ module.exports = [
     },
     { 
         id: 17,
-        triggers: ['#AlwaysGood', '#Sweepstakes' , '#TBD', '#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #TBD',
         responses: [
             {
                 start: '2022-02-09 00:00:00',
@@ -491,7 +491,7 @@ module.exports = [
     },
     { 
         id: 18,
-        triggers: ['#AlwaysGood', '#Sweepstakes' , '#Vinyl', '#SBLVI'],
+        trigger: '#AlwaysGood #Sweepstakes #SBLVI #Vinyl',
         responses: [
             {
                 start: '2022-02-12 00:00:00',
