@@ -5,7 +5,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 4, 
@@ -18,7 +18,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -35,7 +35,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 7, 
@@ -48,7 +48,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -65,7 +65,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 10, 
@@ -78,7 +78,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -95,7 +95,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 13, 
@@ -108,7 +108,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -125,7 +125,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 16, 
@@ -138,7 +138,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -155,7 +155,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 19, 
@@ -168,7 +168,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -185,7 +185,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 72, 
@@ -198,7 +198,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -215,7 +215,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 22, 
@@ -228,7 +228,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -245,7 +245,7 @@ module.exports = [
         responses: [
             {
                 start: '2022-01-24 00:00:00',
-                end: '2022-02-01 23:59:59',
+                end: '2022-02-12 23:59:59',
                 responses: [
                     {
                         id: 25, 
@@ -262,7 +262,7 @@ module.exports = [
                 ]
             },
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -278,7 +278,7 @@ module.exports = [
         trigger: '#AlwaysGood #Sweepstakes #SBLVI #Dog',
         responses: [
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -314,7 +314,7 @@ module.exports = [
         trigger: '#AlwaysGood #Sweepstakes #SBLVI #AvoGlowUp',
         responses: [
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -350,7 +350,7 @@ module.exports = [
         trigger: '#AlwaysGood #Sweepstakes #SBLVI #News',
         responses: [
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {
@@ -386,7 +386,7 @@ module.exports = [
         trigger: '#AlwaysGood #Sweepstakes #SBLVI #AvoArt',
         responses: [
             {
-                start: '2022-02-02 00:00:00',
+                start: '2022-02-13 00:00:00',
                 end: '2022-02-08 23:59:59',
                 responses: [
                     {

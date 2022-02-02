@@ -1,0 +1,1 @@
+db.sents.aggregate({ $match: { date: '2022-01-31' } }, { $group: { _id : null, sum : { $sum: "$count" } } });
