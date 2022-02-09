@@ -275,7 +275,7 @@ module.exports = [
     },
     { 
         id: 12,
-        trigger: '#AlwaysGood #Sweepstakes #SBLVI #Dog',
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + #Dog',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -311,7 +311,7 @@ module.exports = [
     },
     { 
         id: 13,
-        trigger: '#AlwaysGood #Sweepstakes #SBLVI #AvoGlowUp',
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + #AvoGlowUp',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -347,7 +347,7 @@ module.exports = [
     },
     { 
         id: 14,
-        trigger: '#AlwaysGood #Sweepstakes #SBLVI #News',
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + #News',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -383,7 +383,7 @@ module.exports = [
     },
     { 
         id: 15,
-        trigger: '#AlwaysGood #Sweepstakes #SBLVI #AvoArt',
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + #AvoArt',
         responses: [
             {
                 start: '2022-02-02 00:00:00',
@@ -419,7 +419,7 @@ module.exports = [
     },
     { 
         id: 16,
-        trigger: '#AlwaysGood #Sweepstakes #SBLVI #Caesar',
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + #Caesar',
         responses: [
             {
                 start: '2022-02-09 00:00:00',
@@ -491,7 +491,7 @@ module.exports = [
     // },
     { 
         id: 18,
-        trigger: '#AlwaysGood #Sweepstakes #SBLVI #Vinyl',
+        trigger: '#AlwaysGood + #Sweepstakes + #SBLVI + #Vinyl',
         responses: [
             {
                 start: '2022-02-12 00:00:00',
