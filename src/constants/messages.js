@@ -525,4 +525,20 @@ module.exports = [
             }
         ]
     },
+    { 
+        id: 19,
+        trigger: '#AlwaysGood',
+        responses: [
+            {
+                start: '2022-02-12 00:00:00',
+                end: '2022-02-14 23:59:59',
+                responses: [
+                    {
+                        id: 71, 
+                        response: "We see you like 🏈 and 🥑. Check out our game day recipes at the House of Goodness! Share them for more chances at $100K — then you can addvocados every day!  #AlwaysGood #SBLVI #Sweepstakes #Addvocados #Thx https://bit.ly/goodnesskitchen"
+                    },
+                ]
+            }
+        ]
+    },
 ];
