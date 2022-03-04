@@ -98,5 +98,21 @@ module.exports = [
                 ]
             }
         ]
+    },
+    { 
+        id: 114,
+        trigger: '#ColorectalCancerAwarenessMonth',
+        responses: [
+            {
+                start: '2022-01-24 00:00:00',
+                end: '2022-12-31 23:59:59',
+                responses: [
+                    {
+                        id: 118, 
+                        response: "Uranus is the most important mission on Earth. Did you know that 9 in 10 people beat colon cancer when caught early with a colonoscopy? Visit and learn more https://bit.ly/3p7OoNU  #MissionToUranus #fxckcancer #CheckYourColon"
+                    }
+                ]
+            }
+        ]
     }
 ];
