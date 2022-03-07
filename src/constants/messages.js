@@ -9,19 +9,19 @@ module.exports = [
                 responses: [
                     {
                         id: 104, 
-                        response: "Congratulations on accepting this mission! 🚀 Your first command will be to go deep into the unknown 🪐. Learn more about your mission, visit https://bit.ly/3p7OoNU  #MissionToUranu  #CheckYourColon"
+                        response: "Congratulations on accepting this mission! 🚀 Your first command will be to go deep into the unknown 🪐. Learn more about your mission, visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
                     },
                     {
                         id: 105, 
-                        response: "The countdown to launch this mission started. 🚀 The objective? To save mankind. Become a hero 👨‍🚀 👩‍🚀. Get a colonoscopy. Learn more about it here https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        response: "The countdown to launch this mission started. 🚀 The objective? To save mankind. Become a hero 👨‍🚀 👩‍🚀. Get a colonoscopy. Learn more about it here https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
                     },
                     {
                         id: 106, 
-                        response: "Thanks for joining the mission, Captain. Uranus might have the answer to a longer life on 🌎. Shuttle up and get ready for a journey 🚀that will change your life forever.Visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        response: "Thanks for joining the mission, Captain. Uranus might have the answer to a longer life on 🌎. Shuttle up and get ready for a journey 🚀that will change your life forever.Visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
                     },
                     {
                         id: 107, 
-                        response: "U r a hero in the making! The first step towards longer life on 🌎starts with Uranus. This mission’s on you. Get ready for it. Earn a journey for a lifetime 🚀. Visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        response: "U r a hero in the making! The first step towards longer life on 🌎starts with Uranus. This mission’s on you. Get ready for it. Earn a journey for a lifetime 🚀. Visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
                     },
                     {
                         id: 108, 
@@ -61,11 +61,11 @@ module.exports = [
                     },
                     {
                         id: 114, 
-                        response: "We 👀you are interested in our mission to save mankind. Great! Let’s start on Uranus. Get a colonoscopy. Visit to learn more https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        response: "We 👀you are interested in our mission to save mankind. Great! Let’s start on Uranus. Get a colonoscopy. Visit to learn more https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
                     },
                     {
                         id: 115, 
-                        response: "Your mission starts on Uranus. It is said it has all the answers to extend mankind’s life on planet 🌎. One colonoscopy at a time. Visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        response: "Your mission starts on Uranus. It is said it has all the answers to extend mankind’s life on planet 🌎. One colonoscopy at a time. Visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
                     },
                     {
                         id: 116, 
@@ -77,7 +77,7 @@ module.exports = [
     },
     { 
         id: 113,
-        trigger: ',
+        trigger: '#Fxckcancer',
         responses: [
             {
                 start: '2022-01-24 00:00:00',
