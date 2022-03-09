@@ -149,6 +149,9 @@ const saveTweets = async (data, trigger) => {
                 continue;
             }
             const msg = getResponses(trigger.result.responses)
+
+            msg.response = msg.response.replace('@NAME', `@${tweet.user.screen_name}`);
+
             const tweetReply = `@${tweet.user.screen_name} ${msg.response}`; 
 
             try {
@@ -171,7 +174,56 @@ const saveTweets = async (data, trigger) => {
     }
 }
 
+const howManyTwittersExistsToRule = async (rule) => {
+    let params = { q: `${rule} since:2022-01-01`, count: 100 };
+    
+    let count = 0;
+    let lastTweet = null;
+    let since = null;
+    let last = null;
+
+    const object = Array.from(Array(150).keys());
+
+    for (const iterator of object) {
+        let item = iterator;
+
+        if ( lastTweet ) {
+            params.max_id = parseInt(lastTweet);
+        }
+
+        const found = await T.get('search/tweets', params);
+
+        const { data } = found;
+
+        for (const tweet of data.statuses) {
+            if (
+                tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
+                (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
+            ) {
+                continue;
+            } else {
+                count = count + 1;
+            }
+        }
+
+        if (!last) {
+            last = data.statuses[0].created_at
+        }
+
+        since = data.statuses[data.statuses.length - 1].created_at;
+
+        if (data.statuses.length < 100) {
+            break;
+        } else {
+            lastTweet = data.statuses[99].id;
+        }
+    }
+
+    console.log(`${rule}: ${count} - since: ${since}, last: ${last}`);
+}
+
 module.exports =  {
     searchNewTweets,
-    sendTweets
+    sendTweets,
+    howManyTwittersExistsToRule
 }
