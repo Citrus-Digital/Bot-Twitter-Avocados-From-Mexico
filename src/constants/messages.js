@@ -75,28 +75,28 @@ module.exports = [
             }
         ]
     },
-    { 
-        id: 113,
-        trigger: '#Fxckcancer',
-        responses: [
-            {
-                start: '2022-01-24 00:00:00',
-                end: '2022-12-31 23:59:59',
-                responses: [
-                    {
-                        id: 117, 
-                        response: "RT @NAME We agree,. Join our #missiontouranus to help save mankind. Visit https://bit.ly/3p7OoNU"
-                    },
-                    {
-                        id: 118, 
-                        response: "RT We are on a mission to end colon cancer @NAME. Join our #missiontouranus. Explore the unkwonw with a colonoscopy and. Visit https://bit.ly/3p7OoNU"
-                    },
-                    {
-                        id: 119, 
-                        response: "RT You had us at @NAME. Join our #missiontouranus, you can save mankind one colonoscopy at a time. Be a hero. Visit https://bit.ly/3p7OoNU"
-                    }
-                ]
-            }
-        ]
-    }
+    // { 
+    //     id: 113,
+    //     trigger: '#Fxckcancer',
+    //     responses: [
+    //         {
+    //             start: '2022-01-24 00:00:00',
+    //             end: '2022-12-31 23:59:59',
+    //             responses: [
+    //                 {
+    //                     id: 117, 
+    //                     response: "RT @NAME We agree,. Join our #missiontouranus to help save mankind. Visit https://bit.ly/3p7OoNU"
+    //                 },
+    //                 {
+    //                     id: 118, 
+    //                     response: "RT We are on a mission to end colon cancer @NAME. Join our #missiontouranus. Explore the unkwonw with a colonoscopy and. Visit https://bit.ly/3p7OoNU"
+    //                 },
+    //                 {
+    //                     id: 119, 
+    //                     response: "RT You had us at @NAME. Join our #missiontouranus, you can save mankind one colonoscopy at a time. Be a hero. Visit https://bit.ly/3p7OoNU"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // }
 ];
