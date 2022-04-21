@@ -1,102 +1,94 @@
 module.exports = [
     { 
-        id: 111,
-        trigger: '#MissionToUranus',
+        id: 331,
+        trigger: '#CincOMG',
         responses: [
             {
-                start: '2022-01-24 00:00:00',
+                start: '2022-04-21 18:25:36',
                 end: '2022-12-31 23:59:59',
                 responses: [
                     {
-                        id: 104, 
-                        response: "Congratulations on accepting this mission! 🚀 Your first command will be to go deep into the unknown 🪐. Learn more about your mission, visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
+                        id: 304, 
+                        response: "Thanks for sharing! Keep RT’ing for a chance to win a $50 gift card. 🤑 #CincOMG #AvoSweeps #Cincodemayo"
                     },
                     {
-                        id: 105, 
-                        response: "The countdown to launch this mission started. 🚀 The objective? To save mankind. Become a hero 👨‍🚀 👩‍🚀. Get a colonoscopy. Learn more about it here https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
+                        id: 305, 
+                        response: "Tweets like this ☝️ make us say #CincOMG. Keep sharing for a chance to win a prize from our #Cincodemayo #AvoSweeps."
                     },
                     {
-                        id: 106, 
-                        response: "Thanks for joining the mission, Captain. Uranus might have the answer to a longer life on 🌎. Shuttle up and get ready for a journey 🚀that will change your life forever.Visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
+                        id: 306, 
+                        response: "We couldn’t agree more. 👌 Keep the #CincOMG party rolling with a RT, and get a chance to win a $50 gift card! #AvoSweeps #Cincodemayo"
                     },
                     {
-                        id: 107, 
-                        response: "U r a hero in the making! The first step towards longer life on 🌎starts with Uranus. This mission’s on you. Get ready for it. Earn a journey for a lifetime 🚀. Visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
+                        id: 307, 
+                        response: "You just put the OMG in #CincOMG. RT for a shot at our $50 gift card! #AvoSweeps #Cincodemayo"
                     },
                     {
-                        id: 108, 
-                        response: "Good job, Captain! Here is the mission to extend life on 🌎. The exploration requires bravery. 👨‍🚀 👩‍🚀 & civilians are welcome to apply. Start the mission with a colonoscopy, visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 308, 
+                        response: "OMG is right! 👍 👍 👍 Keep sharing good stuff like this for a chance to win a $50 gift card in our #AvoSweeps. #cincodemayo"
                     },
                     {
-                        id: 109, 
-                        response: "Welcome to the mission. After so much research up in space 🌌, finally, Uranus has the answer for how to save mankind. Learn more, visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 309, 
+                        response: "Way to addvocado! 😍 Keep it up by RT’ing #CincOMG for a shot at a $50 prize. #AvoSweeps #cincodemayo"
                     },
                     {
-                        id: 110, 
-                        response: "Welcome aboard. This mission is just one small step for you, one giant leap for your loved ones. Get a colonoscopy. Visit to learn more https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 310, 
+                        response: "So. Much. Goodness. 🥑 🥑 🥑 And it gets better: RT for a chance to win a $50 gift card! #CincOMG #AvoSweeps #cincodemayo"
                     },
                     {
-                        id: 111, 
-                        response: "Uranus is the most important mission on Earth. Did you know that 9 in 10 people beat colon cancer when caught early with a colonoscopy? Visit and learn more https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 311, 
+                        response: "Aaamaaazing! 😂 Keep sharing good stuff like this for a chance to win a $50 gift card! #AvoSweeps #CincOMG #cincodemayo"
+                    },
+                    {
+                        id: 312, 
+                        response: "Thanks for joining in on the good times. It’s not a #CincOMG party without you! Keep sharing for a chance to win our #AvoSweeps. #cincodemayo"
+                    },
+                    {
+                        id: 312, 
+                        response: "Go #CincOMG or go home! Winning is always good, so RT for a chance at one of our $50 gift cards. #AvoSweeps #cincodemayo"
                     },
                 ]
             }
         ]
     },
     { 
-        id: 112,
-        trigger: '#CheckYourColon',
+        id: 332,
+        trigger: '#CincoDeMayo',
         responses: [
             {
-                start: '2022-01-24 00:00:00',
+                start: '2022-04-21 18:25:36',
                 end: '2022-12-31 23:59:59',
                 responses: [
                     {
-                        id: 112, 
-                        response: "This is your mission! Extract unknown material from the deepest craters in the universe with a colonoscopy. If you succeed, you may win more experiences on planet 🌎. https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 313, 
+                        response: "You say Cinco, we say #CincOMG. 🤩 OMG-ify your fiesta with these guacamoles, tacos, and cocktails: https://bit.ly/hofgkitchen #Cincodemayo"
                     },
                     {
-                        id: 113, 
-                        response: "We hear you are joining the mission and are ready to explore 🚀 Uranus. Save mankind, including your own life. Get a colonoscopy. Learn more about your mission, visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 314, 
+                        response: "What’s on your Cinco de Menu? Please tell us you’re gonna addvocados. 🥑 Get some inspo for a #CincOMG here: https://bit.ly/hofgkitchen #cincodemayo"
                     },
                     {
-                        id: 114, 
-                        response: "We 👀you are interested in our mission to save mankind. Great! Let’s start on Uranus. Get a colonoscopy. Visit to learn more https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
+                        id: 315, 
+                        response: "Does Twitter have an edit button yet? Because it looks like you forgot to addvocados to your #CincoDeMayo tweet. 😱 Good thing we’ve got these delish recipes: #CincOMG https://bit.ly/hofgkitchen"
                     },
                     {
-                        id: 115, 
-                        response: "Your mission starts on Uranus. It is said it has all the answers to extend mankind’s life on planet 🌎. One colonoscopy at a time. Visit https://bit.ly/3p7OoNU  #MissionToUranus  #CheckYourColon"
+                        id: 316, 
+                        response: "➕🥑 for a #CincOMG. Get guac, taco, and cocktail recipes here to addvocados to your fiesta: https://bit.ly/hofgkitchen #cincodemayo"
                     },
                     {
-                        id: 116, 
-                        response: "You R right, no need to be a space enthusiast to explore Uranus. This is your mission to accomplish a healthy colon. Learn more, visit https://bit.ly/3p7OoNU  #MissionToUranus #CheckYourColon"
+                        id: 317, 
+                        response: "Did someone say #CincoDeMayo? We are so there. Go full-on #CincOMG with these delicious recipes: https://bit.ly/hofgkitchen"
+                    },
+                    {
+                        id: 318, 
+                        response: "What’s Cinco without 🌮🌮🌮? Help yourself to our #CincOMG taco recipes here: https://bit.ly/hofgkitchen #cincodemayo"
+                    },
+                    {
+                        id: 318, 
+                        response: "The only thing your #CincoDeMayo is missing is a 💯 guacamole. Check out our #CincOMG recipes here: https://bit.ly/hofgkitchen"
                     }
                 ]
             }
         ]
-    },
-    // { 
-    //     id: 113,
-    //     trigger: '#Fxckcancer',
-    //     responses: [
-    //         {
-    //             start: '2022-01-24 00:00:00',
-    //             end: '2022-12-31 23:59:59',
-    //             responses: [
-    //                 {
-    //                     id: 117, 
-    //                     response: "RT @NAME We agree,. Join our #missiontouranus to help save mankind. Visit https://bit.ly/3p7OoNU"
-    //                 },
-    //                 {
-    //                     id: 118, 
-    //                     response: "RT We are on a mission to end colon cancer @NAME. Join our #missiontouranus. Explore the unkwonw with a colonoscopy and. Visit https://bit.ly/3p7OoNU"
-    //                 },
-    //                 {
-    //                     id: 119, 
-    //                     response: "RT You had us at @NAME. Join our #missiontouranus, you can save mankind one colonoscopy at a time. Be a hero. Visit https://bit.ly/3p7OoNU"
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // }
+    }
 ];
