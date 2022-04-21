@@ -15,17 +15,17 @@ const init = () => {
     searchNewTweets();
     sendTweets();
     
-    // console.log('running a task every five minutes');
+    console.log('running a task every five minutes');
 
-    // cron.schedule('*/3 * * * *', () => {
-    //     console.log(`starting getNewTweets... ${getTimeNow(false, true)}`);
-    //     searchNewTweets();
-    // });
+    cron.schedule('*/3 * * * *', () => {
+        console.log(`starting getNewTweets... ${getTimeNow(false, true)}`);
+        searchNewTweets();
+    });
     
-    // cron.schedule('*/1 * * * *', () => {
-    //     console.log(`starting sendTweets... ${getTimeNow(false, true)}`);
-    //     sendTweets();
-    // });
+    cron.schedule('*/1 * * * *', () => {
+        console.log(`starting sendTweets... ${getTimeNow(false, true)}`);
+        sendTweets();
+    });
 }
 
 init();
