@@ -150,7 +150,7 @@ const saveTweets = async (data, trigger) => {
             }
             const msg = getResponses(trigger.result.responses)
 
-            msg.response = msg.response.replace('@NAME', `@${tweet.user.screen_name}`);
+            msg.response = msg.response.replace('[@user]', `@${tweet.user.screen_name}`);
 
             const tweetReply = `@${tweet.user.screen_name} ${msg.response}`; 
 
