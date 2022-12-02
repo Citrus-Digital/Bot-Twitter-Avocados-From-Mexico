@@ -142,12 +142,12 @@ const saveTweets = async (data, trigger) => {
         const tweets = data.statuses.reverse();
 
         for (let tweet of tweets) {
-            if (
-                tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
-                (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
-            ) {
-                continue;
-            }
+            // if (
+            //     tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
+            //     (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
+            // ) {
+            //     continue;
+            // }
             const msg = getResponses(trigger.result.responses)
 
             msg.response = msg.response.replace('[@user]', `@${tweet.user.screen_name}`);
@@ -196,14 +196,14 @@ const howManyTwittersExistsToRule = async (rule) => {
         const { data } = found;
 
         for (const tweet of data.statuses) {
-            // if (
-            //     tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
-            //     (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
-            // ) {
-            //     continue;
-            // } else {
+            if (
+                tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
+                (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
+            ) {
+                continue;
+            } else {
                 count = count + 1;
-            // }
+            }
         }
 
         if (!last) {
