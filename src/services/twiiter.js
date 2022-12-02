@@ -196,14 +196,14 @@ const howManyTwittersExistsToRule = async (rule) => {
         const { data } = found;
 
         for (const tweet of data.statuses) {
-            if (
-                tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
-                (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
-            ) {
-                continue;
-            } else {
+            // if (
+            //     tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
+            //     (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
+            // ) {
+            //     continue;
+            // } else {
                 count = count + 1;
-            }
+            // }
         }
 
         if (!last) {
