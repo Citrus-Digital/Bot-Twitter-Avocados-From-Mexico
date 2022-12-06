@@ -25,7 +25,7 @@ module.exports = [
                 responses: [
                     {
                         id: 320, 
-                        response: "[@user], you can really talk the talk and guac the guac! The best #GuacKeepers keep it good by sharing all the cards in their album because guac made with Avocados From Mexico® and #Takis is #AlwaysGood when enjoyed with friends.🥑🔥#Sweepstakes https://bit.ly/FlavorChallenge2022"
+                        response: "[@user], you can really talk the talk and guac the guac! The best #GuacKeepers keep it good by sharing all the cards in their album because guac made with Avocados From Mexico® and #Takis is #AlwaysGood when enjoyed with friends.🥑🔥#Sweepstakes https://bit.ly/"
                     }
                 ]
             }
@@ -189,7 +189,7 @@ module.exports = [
                 responses: [
                     {
                         id: 331, 
-                        response: "[@user] takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/FlavorChallenge2022"
+                        response: "[@user] takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/"
                     },
                     {
                         id: 332, 
@@ -221,7 +221,7 @@ module.exports = [
                 responses: [
                     {
                         id: 336, 
-                        response: "[@user] takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/FlavorChallenge2022"
+                        response: "[@user] takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/"
                     },
                     {
                         id: 337, 
@@ -253,7 +253,7 @@ module.exports = [
                 responses: [
                     {
                         id: 341, 
-                        response: "[@user] takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/FlavorChallenge2022"
+                        response: "[@user] takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/"
                     },
                     {
                         id: 342, 
