@@ -17,6 +17,7 @@ const tweetIt = async (tweet, date, hour) => {
             tweetObj, 
             async (err, data, response) => {
                 if(err) {
+                    console.log(tweet);
                     console.log(`Error at ${getTimeNow()} - `, data, { tweet_id: tweet.tweet_id, tweet_id_str: tweet.tweet_id_str});
                     await TweetModel.findOneAndUpdate(
                         { tweet_id: tweet.tweet_id, tweet_id_str: tweet.tweet_id_str}, 
