@@ -15,22 +15,22 @@ module.exports = [
             }
         ]
     },
-    // { 
-    //     id: 334,
-    //     trigger: '"#raphaeltestandobot" + "found the #AlwaysGood" + #GuacKeepers',
-    //     responses: [
-    //         {
-    //             start: '2022-11-21 00:00:01',
-    //             end: '2023-12-31 23:59:59',
-    //             responses: [
-    //                 {
-    //                     id: 320, 
-    //                     response: "You can really talk the talk and guac the guac! The best #GuacKeepers keep it good by sharing all the cards in their album because guac made with Avocados From Mexico® and #Takis is #AlwaysGood when enjoyed with friends.🥑🔥#Sweepstakes https://bit.ly/FlavorChallenge2022"
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
+    { 
+        id: 334,
+        trigger: '"#raphaeltestandobot" + "found the #AlwaysGood" + #GuacKeepers',
+        responses: [
+            {
+                start: '2022-11-21 00:00:01',
+                end: '2023-12-31 23:59:59',
+                responses: [
+                    {
+                        id: 320, 
+                        response: "You can really talk the talk and guac the guac! The best #GuacKeepers keep it good by sharing all the cards in their album because guac made with Avocados From Mexico® and #Takis is #AlwaysGood when enjoyed with friends.🥑🔥#Sweepstakes https://bit.ly/3UCYmUf"
+                    }
+                ]
+            }
+        ]
+    },
     { 
         id: 335,
         trigger: '"#raphaeltestandobot" + "serve #AlwaysGood guac" + #GuacKeepers',
@@ -187,10 +187,10 @@ module.exports = [
                 start: '2022-11-21 00:00:01',
                 end: '2023-12-31 23:59:59',
                 responses: [
-                    // {
-                    //     id: 331, 
-                    //     response: "Takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/FlavorChallenge2022"
-                    // },
+                    {
+                        id: 331, 
+                        response: "Takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/3UCYmUf"
+                    },
                     {
                         id: 332, 
                         response: "You’ve found one of the five famously fierce @TakisUSA cards!🔥Complete your #AlwaysGood #Takis collection and share the intensity with friends and family on #Soccer game day and every day.🥑Keep it up! #GuacKeepers #Sweepstakes https://bit.ly/FlavorChallenge2022"
@@ -219,10 +219,10 @@ module.exports = [
                 start: '2022-11-21 00:00:01',
                 end: '2023-12-31 23:59:59',
                 responses: [
-                    // {
-                    //     id: 336, 
-                    //     response: "Takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/FlavorChallenge2022"
-                    // },
+                    {
+                        id: 336, 
+                        response: "Takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/3UCYmUf"
+                    },
                     {
                         id: 337, 
                         response: "You’ve found one of the five famously fierce @TakisUSA cards!🔥Complete your #AlwaysGood #Takis collection and share the intensity with friends and family on #Soccer game day and every day.🥑Keep it up! #GuacKeepers #Sweepstakes https://bit.ly/FlavorChallenge2022"
@@ -251,10 +251,10 @@ module.exports = [
                 start: '2022-11-21 00:00:01',
                 end: '2023-12-31 23:59:59',
                 responses: [
-                    // {
-                    //     id: 341, 
-                    //     response: "Takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/FlavorChallenge2022"
-                    // },
+                    {
+                        id: 341, 
+                        response: "Takes the lead with #Takis! Scoring this card is a crucial goal of the game.🥵Ramp up the #AlwaysGood intensity and earn more entries by sharing flaming hot @TakisUSA recipe tips and other flavors with fellow #GuacKeepers!🥑🔥 #Sweepstakes https://bit.ly/3UCYmUf"
+                    },
                     {
                         id: 342, 
                         response: "You’ve found one of the five famously fierce @TakisUSA cards!🔥Complete your #AlwaysGood #Takis collection and share the intensity with friends and family on #Soccer game day and every day.🥑Keep it up! #GuacKeepers #Sweepstakes https://bit.ly/FlavorChallenge2022"
