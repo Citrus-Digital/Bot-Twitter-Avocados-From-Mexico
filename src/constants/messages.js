@@ -1,7 +1,7 @@
 module.exports = [
     { 
         id: 333,
-        trigger: '"#raphaeltestandobot" + "Golden Guac" + #GuacKeepers',
+        trigger: '"Golden Guac" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -17,7 +17,7 @@ module.exports = [
     },
     { 
         id: 334,
-        trigger: '"#raphaeltestandobot" + "found the #AlwaysGood" + #GuacKeepers',
+        trigger: '"found the #AlwaysGood" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -33,7 +33,7 @@ module.exports = [
     },
     { 
         id: 335,
-        trigger: '"#raphaeltestandobot" + "serve #AlwaysGood guac" + #GuacKeepers',
+        trigger: '"serve #AlwaysGood guac" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -49,7 +49,7 @@ module.exports = [
     },
     { 
         id: 336,
-        trigger: '"#raphaeltestandobot" + "@RafaMarquezMX card" + #GuacKeepers',
+        trigger: '"@RafaMarquezMX card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -65,7 +65,7 @@ module.exports = [
     },
     { 
         id: 337,
-        trigger: '"#raphaeltestandobot" + "@landondonovan card" + #GuacKeepers',
+        trigger: '"@landondonovan card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -81,7 +81,7 @@ module.exports = [
     },
     { 
         id: 338,
-        trigger: '"#raphaeltestandobot" + "just got the power duo" + #GuacKeepers',
+        trigger: '"just got the power duo" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -97,7 +97,7 @@ module.exports = [
     },
     { 
         id: 339,
-        trigger: '"#raphaeltestandobot" + "Avocados From Mexico® Card" + #GuacKeepers',
+        trigger: '"Avocados From Mexico® Card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -113,7 +113,7 @@ module.exports = [
     },
     { 
         id: 340,
-        trigger: '"#raphaeltestandobot" + "Preserve Guac card" + #GuacKeepers',
+        trigger: '"Preserve Guac card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -129,7 +129,7 @@ module.exports = [
     },
     { 
         id: 341,
-        trigger: '"#raphaeltestandobot" + "Guacamole for a Crowd card" + #GuacKeepers',
+        trigger: '"Guacamole for a Crowd card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -145,7 +145,7 @@ module.exports = [
     },
     { 
         id: 342,
-        trigger: '"#raphaeltestandobot" + "Good Fats card" + #GuacKeepers',
+        trigger: '"Good Fats card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -161,7 +161,7 @@ module.exports = [
     },
     { 
         id: 343,
-        trigger: '"#raphaeltestandobot" + "Vitamins & Minerals card" + #GuacKeepers',
+        trigger: '"Vitamins & Minerals card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -181,7 +181,7 @@ module.exports = [
     },
     { 
         id: 345,
-        trigger: '"#raphaeltestandobot" + "#Takis Logo card" + #GuacKeepers',
+        trigger: '"#Takis Logo card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -213,7 +213,7 @@ module.exports = [
     },
     { 
         id: 346,
-        trigger: '"#raphaeltestandobot" + "Fuego® card" + #GuacKeepers',
+        trigger: '"Fuego® card" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -245,7 +245,7 @@ module.exports = [
     },
     { 
         id: 347,
-        trigger: '"#raphaeltestandobot" + "#Takis trifecta" + #GuacKeepers',
+        trigger: '"#Takis trifecta" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -277,7 +277,7 @@ module.exports = [
     },
     { 
         id: 348,
-        trigger: '"#raphaeltestandobot" + "fuel up on #AlwaysGood" + #GuacKeepers',
+        trigger: '"fuel up on #AlwaysGood" + #GuacKeepers',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
