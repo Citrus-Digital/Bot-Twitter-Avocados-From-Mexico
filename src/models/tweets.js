@@ -52,6 +52,10 @@ const tweetScheme = new mongoose.Schema({
     tweet_reply: {
         type: String,
         required: true
+    },
+    status: {
+        type: String,
+        required: false
     }
 }, {
     timestamps: {

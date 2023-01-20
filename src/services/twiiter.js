@@ -143,18 +143,23 @@ const saveTweets = async (data, trigger) => {
         const tweets = data.statuses.reverse();
 
         for (let tweet of tweets) {
-            // if (
-            //     tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
-            //     (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
-            // ) {
-            //     continue;
-            // }
+            console.log('--------- START --------');
+            console.log('TWITTER_ACCOUNT: ' + process.env.TWITTER_ACCOUNT);
+            if (
+                tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
+                (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
+            ) {
+                console.log(' ---- END - THIS ACCOUNT IT`S ME ----')
+                continue;
+            }
+            console.log('USER_TWITTER_ACCOUNT: ' + tweet.user.screen_name);
+
             const msg = getResponses(trigger.result.responses)
 
             msg.response = msg.response.replace('[@user]', `@${tweet.user.screen_name}`);
 
             const tweetReply = `@${tweet.user.screen_name} ${msg.response}`; 
-
+            console.log('TRIGGER_ID: ' + trigger.id)
             try {
                 await new TweetModel({
                     trigger_id: trigger.id,
@@ -166,7 +171,9 @@ const saveTweets = async (data, trigger) => {
                     tweet_created_at: new Date(tweet.created_at),
                     tweet: tweet
                 }).save();
+                console.log(' ---- END ----')
             } catch (error) {
+                console.log(' ---- END THIS TWEET IS OLD ----')
                 continue;
             }
         }

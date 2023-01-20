@@ -1,17 +1,13 @@
 require('dotenv').config();
 var cron = require('node-cron');
 var mongoose = require('mongoose');
-const { searchNewTweets, sendTweets, howManyTwittersExistsToRule } = require('./src/services/twiiter');
+const { searchNewTweets, sendTweets } = require('./src/services/twiiter');
 const { getTimeNow } = require('./src/services/utils');
 const Conn = require('./src/config/mongo');
 
 Conn(mongoose);
 
 const init = () => {
-    // howManyTwittersExistsToRule('#MissionToUranus');
-    // howManyTwittersExistsToRule('#CheckYourColon');
-    // howManyTwittersExistsToRule('#Fxckcancer');
-
     searchNewTweets();
     sendTweets();
     
