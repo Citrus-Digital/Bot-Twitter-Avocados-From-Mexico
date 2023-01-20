@@ -1,11 +1,11 @@
 module.exports = [
     { 
         id: 400,
-        trigger: '#FieldGoalFeast + @nstomatoes + idktestsandtests',
+        trigger: '#FieldGoalFeast + @nstomatoes',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
-                end: '2023-12-31 23:59:59',
+                end: '2024-12-31 23:59:59',
                 responses: [
                     {
                         id: 401, 
@@ -21,11 +21,11 @@ module.exports = [
     },
     { 
         id: 403,
-        trigger: '#sweepstakes + @nstomatoes + idktestsandtests',
+        trigger: '#sweepstakes + @nstomatoes',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
-                end: '2023-12-31 23:59:59',
+                end: '2024-12-31 23:59:59',
                 responses: [
                     {
                         id: 404, 
@@ -41,11 +41,11 @@ module.exports = [
     },
     { 
         id: 406,
-        trigger: '#gameday + @nstomatoes + idktestsandtests',
+        trigger: '#gameday + @nstomatoes',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
-                end: '2023-12-31 23:59:59',
+                end: '2024-12-31 23:59:59',
                 responses: [
                     {
                         id: 407, 
