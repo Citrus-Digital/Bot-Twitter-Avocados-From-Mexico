@@ -17,7 +17,6 @@ const tweetIt = async (tweet, date, hour) => {
             tweetObj, 
             async (err, data, response) => {
                 if(err) {
-                    console.log(tweet);
                     console.log(`Error at ${getTimeNow()} - `, data, { tweet_id: tweet.tweet_id, tweet_id_str: tweet.tweet_id_str});
                     await TweetModel.findOneAndUpdate(
                         { tweet_id: tweet.tweet_id, tweet_id_str: tweet.tweet_id_str}, 
@@ -143,23 +142,17 @@ const saveTweets = async (data, trigger) => {
         const tweets = data.statuses.reverse();
 
         for (let tweet of tweets) {
-            console.log('--------- START --------');
-            console.log('TWITTER_ACCOUNT: ' + process.env.TWITTER_ACCOUNT);
             if (
                 tweet.user.screen_name == process.env.TWITTER_ACCOUNT ||
                 (tweet.retweeted_status && tweet.retweeted_status.user.screen_name == process.env.TWITTER_ACCOUNT)
             ) {
-                console.log(' ---- END - THIS ACCOUNT IT`S ME ----')
                 continue;
             }
-            console.log('USER_TWITTER_ACCOUNT: ' + tweet.user.screen_name);
-
+            
             const msg = getResponses(trigger.result.responses)
+            const text = msg.response.replace('[@user]', `@${tweet.user.screen_name}`);
+            const tweetReply = `@${tweet.user.screen_name} ${text}`; 
 
-            msg.response = msg.response.replace('[@user]', `@${tweet.user.screen_name}`);
-
-            const tweetReply = `@${tweet.user.screen_name} ${msg.response}`; 
-            console.log('TRIGGER_ID: ' + trigger.id)
             try {
                 await new TweetModel({
                     trigger_id: trigger.id,
@@ -171,9 +164,7 @@ const saveTweets = async (data, trigger) => {
                     tweet_created_at: new Date(tweet.created_at),
                     tweet: tweet
                 }).save();
-                console.log(' ---- END ----')
             } catch (error) {
-                console.log(' ---- END THIS TWEET IS OLD ----')
                 continue;
             }
         }
