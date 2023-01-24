@@ -9,7 +9,6 @@ Conn(mongoose);
 
 const init = () => {
     searchNewTweets();
-    sendTweets();
     
     console.log('running a task every five minutes');
 

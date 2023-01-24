@@ -1,7 +1,7 @@
 module.exports = [
     { 
         id: 400,
-        trigger: '#FieldGoalFeast + @nstomatoes',
+        trigger: '#FieldGoalFeast + @nstomatoes + #testreplacename_ns',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -21,7 +21,7 @@ module.exports = [
     },
     { 
         id: 403,
-        trigger: '#sweepstakes + @nstomatoes',
+        trigger: '#sweepstakes + @nstomatoes + #testreplacename_ns',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
@@ -41,7 +41,7 @@ module.exports = [
     },
     { 
         id: 406,
-        trigger: '#gameday + @nstomatoes',
+        trigger: '#gameday + @nstomatoes + #testreplacename_ns',
         responses: [
             {
                 start: '2022-11-21 00:00:01',
