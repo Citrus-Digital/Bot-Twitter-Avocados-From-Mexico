@@ -1,7 +1,7 @@
 module.exports = [
     { 
         id: 410,
-        trigger: '#MakeItBetter + Good Fat Delish',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Good Fat Delish',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -25,7 +25,7 @@ module.exports = [
     },
     { 
         id: 414,
-        trigger: '#MakeItBetter + AvocaDo’s',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + AvocaDo’s',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -41,7 +41,7 @@ module.exports = [
     },
     { 
         id: 416,
-        trigger: '#MakeItBetter + Spa',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Spa',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -57,7 +57,7 @@ module.exports = [
     },
     { 
         id: 418,
-        trigger: '#MakeItBetter + Prime Time',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Prime Time',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -73,7 +73,7 @@ module.exports = [
     },
     { 
         id: 420,
-        trigger: '#MakeItBetter + Guac Off + Deion’s',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off + Deion’s',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -93,7 +93,7 @@ module.exports = [
     },
     { 
         id: 423,
-        trigger: '#MakeItBetter + Guac Off + Tracey’s',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off + Tracey’s',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -113,7 +113,7 @@ module.exports = [
     },
     { 
         id: 426,
-        trigger: '#MakeItBetter + Guac Off + Tracey’s',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off + Tracey’s',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -133,7 +133,7 @@ module.exports = [
     },
     { 
         id: 429,
-        trigger: '#MakeItBetter + Guac Off',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -149,7 +149,7 @@ module.exports = [
     },
     { 
         id: 430,
-        trigger: '#MakeItBetter + Big Game Ad',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Big Game Ad',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -165,7 +165,7 @@ module.exports = [
     },
     { 
         id: 432,
-        trigger: '#MakeItBetter + postcards',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + postcards',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -181,7 +181,7 @@ module.exports = [
     },
     { 
         id: 434,
-        trigger: '#MakeItBetter + T-shirts',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + T-shirts',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -201,7 +201,7 @@ module.exports = [
     },
     { 
         id: 437,
-        trigger: '#MakeItBetter + Lobby',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Lobby',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -217,7 +217,7 @@ module.exports = [
     },
     { 
         id: 439,
-        trigger: '#MakeItBetter + Song',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Song',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -233,7 +233,7 @@ module.exports = [
     },
     { 
         id: 441,
-        trigger: '#MakeItBetter + Music',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Music',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -249,7 +249,7 @@ module.exports = [
     },
     { 
         id: 443,
-        trigger: '#MakeItBetter + Elevator',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Elevator',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -265,7 +265,7 @@ module.exports = [
     },
     { 
         id: 445,
-        trigger: '#MakeItBetter + Guac Eden',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Eden',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -281,7 +281,7 @@ module.exports = [
     },
     { 
         id: 447,
-        trigger: '#MakeItBetter + Toast Town',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Toast Town',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -297,7 +297,7 @@ module.exports = [
     },
     { 
         id: 449,
-        trigger: '#MakeItBetter + Garden',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Garden',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -313,7 +313,7 @@ module.exports = [
     },
     { 
         id: 451,
-        trigger: '#MakeItBetter + Garden',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Garden',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -337,7 +337,7 @@ module.exports = [
     },
     { 
         id: 455,
-        trigger: '#MakeItBetter + Big Game Ad',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Big Game Ad',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -353,7 +353,7 @@ module.exports = [
     },
     { 
         id: 457,
-        trigger: '#MakeItBetter + Tree',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Tree',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -385,7 +385,7 @@ module.exports = [
     },
     { 
         id: 463,
-        trigger: '#MakeItBetter + Tasty Good',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Tasty Good',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -401,7 +401,7 @@ module.exports = [
     },
     { 
         id: 465,
-        trigger: '#MakeItBetter + Eden Tree',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Eden Tree',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -417,7 +417,7 @@ module.exports = [
     },
     { 
         id: 467,
-        trigger: '#MakeItBetter + avocado ripeness',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + avocado ripeness',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -433,7 +433,7 @@ module.exports = [
     },
     { 
         id: 469,
-        trigger: '#MakeItBetter + Winking',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Winking',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -449,7 +449,7 @@ module.exports = [
     },
     { 
         id: 471,
-        trigger: '#MakeItBetter + Tres Chiles Guacamole',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Tres Chiles Guacamole',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -465,7 +465,7 @@ module.exports = [
     },
     { 
         id: 473,
-        trigger: '#MakeItBetter + Smoke',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Smoke',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -481,7 +481,7 @@ module.exports = [
     },
     { 
         id: 475,
-        trigger: '#MakeItBetter + Avo Rita',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + Avo Rita',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
