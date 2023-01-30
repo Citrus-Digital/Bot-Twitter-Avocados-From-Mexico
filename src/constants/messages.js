@@ -13,7 +13,7 @@ module.exports = [
                     },
                     {
                         id: 412, 
-                        response: "That guac glow sure looks good on ya! For more info on the goodness of @AvosFromMexico, head to Tracey’s Inner Glow Spa. You’ll learn the inner Zen you get from eating avocados. 🧖‍♀️ 🥑#MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3WAtDZt"
+                        response: "That guac glow sure looks good on ya! For more info on the goodness of @AvosFromMexico, head to Tracey’s Inner Glow Spa. You’ll learn the inner Zen you get from eating avocados. 🧖‍♀️ 🥑#MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3WAtDZt "
                     },
                     {
                         id: 413, 
@@ -137,7 +137,7 @@ module.exports = [
                 responses: [
                     {
                         id: 431, 
-                        response: "@AvosFromMexico’s Big Game ad is so good you want to watch it twice! Head up to the Garden of Goodness for an even better viewing spot. Come on, we saved you a seat. 📺 🥑 #MakeItBetter #Sweepstakes #SBLVII [LINK] [CC 207]"
+                        response: "@AvosFromMexico’s Big Game ad is so good you want to watch it twice! Head up to the Garden of Goodness for an even better viewing spot. Come on, we saved you a seat. 📺 🥑 #MakeItBetter #Sweepstakes #SBLVII"
                     },
                     {
                         id: 456, 
@@ -241,7 +241,7 @@ module.exports = [
                 responses: [
                     {
                         id: 444, 
-                        response: "Once you’re done taking the Good Time Elevator to explore all the fun at The Goodness Hotel, head down to the Lobby to send a customized postcard and shop avo-inspired Big Game apparel. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3GfbKdy"
+                        response: "Once you’re done taking the Good Time Elevator to explore all the fun at The Goodness Hotel, head down to the Lobby to send a customized postcard and shop avo-inspired Big Game apparel. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3jhBIDT"
                     }
                 ]
             }
@@ -293,7 +293,7 @@ module.exports = [
                     },
                     {
                         id: 453, 
-                        response: "Isn’t it great up there? Ready to check out the rest of The Goodness Hotel experiences? Just take the Good Time Elevator down to the other levels for, well, GOOD TIMES! 🤩🥑 #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3WvJEQA"
+                        response: "Isn’t it great up there? Ready to check out the rest of The Goodness Hotel experiences? Just take the Good Time Elevator down to the other levels for, well, GOOD TIMES! 🤩🥑 #MakeItBetter #Sweepstakes #SBLVII http://bit.ly/3HFbEwe"
                     },
                     {
                         id: 454, 
@@ -442,6 +442,22 @@ module.exports = [
                     {
                         id: 476, 
                         response: "Have you made the Avo Rita yet?🍹 Get the full experience and make an @AvosFromMexico’s Big Game guac to enjoy with it. You’ll find all kinds of good recipes at the Garden of Goodness! #MakeItBetter #Sweepstakes #SBVLII https://bit.ly/3GPAkAB"
+                    }
+                ]
+            }
+        ]
+    },
+    { 
+        id: 477,
+        trigger: '#testbiggamebottwitter + #MakeItBetter + TikTok',
+        responses: [
+            {
+                start: '2023-01-26 00:00:01',
+                end: '2024-12-31 23:59:59',
+                responses: [
+                    {
+                        id: 478, 
+                        response: "You’re a star! Put your musical talents to the test and remix that always good @AvosFrom Mexico beat and #MakeItBetter with the Wink-A-Beat filter. 😜🥑 #Sweepstakes #SBLVII https://bit.ly/3iSHufn"
                     }
                 ]
             }
