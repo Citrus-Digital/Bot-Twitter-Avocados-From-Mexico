@@ -137,11 +137,11 @@ module.exports = [
                 responses: [
                     {
                         id: 431, 
-                        response: "@AvosFromMexico’s Big Game ad is so good you want to watch it twice! Head up to the Garden of Goodness for an even better viewing spot. Come on, we saved you a seat. 📺 🥑 #MakeItBetter #Sweepstakes #SBLVII"
+                        response: "@AvosFromMexico’s Big Game ad is so good you want to watch it twice! Head up to the Garden of Goodness for an even better viewing spot. Come on, we saved you a seat. 📺 🥑 #MakeItBetter #Sweepstakes #SBLVII http://bit.ly/40BdENL"
                     },
                     {
                         id: 456, 
-                        response: "Wasn’t that the best Big Game ad you’ve ever seen? It’s so good you want to watch it twice! 📺 🥑 Head down to the Lobby for another chance to watch @AvosFromMexico’s iconic Big Game ad. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3GfbKdy"
+                        response: "Wasn’t that the best Big Game ad you’ve ever seen? It’s so good you want to watch it twice! 📺 🥑 Head down to the Lobby for another chance to watch @AvosFromMexico’s iconic Big Game ad. #MakeItBetter #Sweepstakes #SBLVII http://bit.ly/40BdENL"
                     }
                 ]
             }
@@ -304,8 +304,24 @@ module.exports = [
         ]
     },
     { 
+        id: 465,
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Eden Tree"',
+        responses: [
+            {
+                start: '2023-01-26 00:00:01',
+                end: '2024-12-31 23:59:59',
+                responses: [
+                    {
+                        id: 466, 
+                        response: "Once you try a bite of the Guac of Eden, there’s no going back. Check out Big Game recipes made better with @AvosFromMexico in the Garden of Goodness, Inner Glow Spa, and Flavor Lounge. #MakeItBetter #SBLVII #Sweepstakes http://bit.ly/3HsWQAZ"
+                    }
+                ]
+            }
+        ]
+    },
+    { 
         id: 457,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Tree',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Tree"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -346,22 +362,6 @@ module.exports = [
                     {
                         id: 464, 
                         response: "Isn’t that bacon flavor filled guac so good?! 😍🥓 Head to Deion’s Flavor Lounge and get pointers on your guac in tip top shape for the Big Game from Prime Time himself. Catch you there! #MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3YHTUXC"
-                    }
-                ]
-            }
-        ]
-    },
-    { 
-        id: 465,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + "Eden Tree"',
-        responses: [
-            {
-                start: '2023-01-26 00:00:01',
-                end: '2024-12-31 23:59:59',
-                responses: [
-                    {
-                        id: 466, 
-                        response: "Once you try a bite of the Guac of Eden, there’s no going back. Check out Big Game recipes made better with @AvosFromMexico in the Garden of Goodness, Inner Glow Spa, and Flavor Lounge. #MakeItBetter #SBLVII #Sweepstakes http://bit.ly/3HsWQAZ"
                     }
                 ]
             }
