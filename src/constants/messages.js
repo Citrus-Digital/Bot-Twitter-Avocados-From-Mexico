@@ -173,7 +173,7 @@ module.exports = [
                 responses: [
                     {
                         id: 435, 
-                        response: "You sure are looking good in our Big Game T-shirt! 🤩 Want a chance to win another for free?? go to the Tree of Goodness and start picking avocados for a chance to secure more apparel. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3hOIaSD"
+                        response: "You sure are looking good in our Big Game T-shirt! 🤩 Want a chance to win another for free?? go to the Tree of Goodness and start picking avocados for a chance to secure more apparel. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/40dAZop"
                     },
                     {
                         id: 436, 
@@ -193,7 +193,7 @@ module.exports = [
                 responses: [
                     {
                         id: 438, 
-                        response: "Going up?🛗 Let’s keep the good vibes going! Just take the Good Time Elevator up to explore all the rooms at The Goodness Hotel – each floor has something even good-er than the last. 😍🥑 #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3WvJEQA"
+                        response: "Going up?🛗 Let’s keep the good vibes going! Just take the Good Time Elevator up to explore all the rooms at The Goodness Hotel – each floor has something even good-er than the last. 😍🥑 #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/3HFbEwe"
                     }
                 ]
             }
