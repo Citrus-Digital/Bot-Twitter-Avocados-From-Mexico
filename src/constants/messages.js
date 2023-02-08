@@ -1,7 +1,7 @@
 module.exports = [
     { 
         id: 410,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Good Fat Delish',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Good Fat Delish"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -57,7 +57,7 @@ module.exports = [
     },
     { 
         id: 418,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Prime Time',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Prime Time"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -73,7 +73,7 @@ module.exports = [
     },
     { 
         id: 420,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off + Deion’s',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Guac Off" + Deion’s',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -93,7 +93,7 @@ module.exports = [
     },
     { 
         id: 423,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off + Tracey’s',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Guac Off" + Tracey’s',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -113,7 +113,7 @@ module.exports = [
     },
     { 
         id: 429,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Off',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Guac Off"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -129,7 +129,7 @@ module.exports = [
     },
     { 
         id: 430,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Big Game Ad',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Big Game Ad"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -163,26 +163,26 @@ module.exports = [
             }
         ]
     },
-    { 
-        id: 434,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + T-shirts',
-        responses: [
-            {
-                start: '2023-01-26 00:00:01',
-                end: '2024-12-31 23:59:59',
-                responses: [
-                    {
-                        id: 435, 
-                        response: "You sure are looking good in our Big Game T-shirt! 🤩 Want a chance to win another for free?? go to the Tree of Goodness and start picking avocados for a chance to secure more apparel. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/40dAZop"
-                    },
-                    {
-                        id: 436, 
-                        response: "Nice! You scored one of the FREE T-shirt from the Tree of Goodness. Want more awesome avo-inspired apparel? Just head down to the Big Game Goodies Shop in The Goodness Hotel Lobby. 😍🥑 #MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3J9GXjX"
-                    }
-                ]
-            }
-        ]
-    },
+    // { 
+    //     id: 434,
+    //     trigger: '#testbiggamebottwitter + #MakeItBetter + T-shirts',
+    //     responses: [
+    //         {
+    //             start: '2023-01-26 00:00:01',
+    //             end: '2024-12-31 23:59:59',
+    //             responses: [
+    //                 {
+    //                     id: 435, 
+    //                     response: "You sure are looking good in our Big Game T-shirt! 🤩 Want a chance to win another for free?? go to the Tree of Goodness and start picking avocados for a chance to secure more apparel. #MakeItBetter #Sweepstakes #SBLVII https://bit.ly/40dAZop"
+    //                 },
+    //                 {
+    //                     id: 436, 
+    //                     response: "Nice! You scored one of the FREE T-shirt from the Tree of Goodness. Want more awesome avo-inspired apparel? Just head down to the Big Game Goodies Shop in The Goodness Hotel Lobby. 😍🥑 #MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3J9GXjX"
+    //                 }
+    //             ]
+    //         }
+    //     ]
+    // },
     { 
         id: 437,
         trigger: '#testbiggamebottwitter + #MakeItBetter + Lobby',
@@ -249,7 +249,7 @@ module.exports = [
     },
     { 
         id: 445,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Guac Eden',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Guac Eden"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -265,7 +265,7 @@ module.exports = [
     },
     { 
         id: 447,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Toast Town',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Toast Town"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -337,7 +337,7 @@ module.exports = [
     },
     { 
         id: 463,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Tasty Good',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Tasty Good"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -353,7 +353,7 @@ module.exports = [
     },
     { 
         id: 465,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Eden Tree',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Eden Tree"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -369,7 +369,7 @@ module.exports = [
     },
     { 
         id: 467,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + avocado ripeness',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "avocado ripeness"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -377,7 +377,7 @@ module.exports = [
                 responses: [
                     {
                         id: 468, 
-                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. 🧖"
+                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. :woman_in_steamy_room::avocado: #MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3WAtDZt"
                     }
                 ]
             }
@@ -401,7 +401,7 @@ module.exports = [
     },
     { 
         id: 471,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Tres Chiles Guacamole',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Tres Chiles Guacamole"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
@@ -433,7 +433,7 @@ module.exports = [
     },
     { 
         id: 475,
-        trigger: '#testbiggamebottwitter + #MakeItBetter + Avo Rita',
+        trigger: '#testbiggamebottwitter + #MakeItBetter + "Avo Rita"',
         responses: [
             {
                 start: '2023-01-26 00:00:01',
