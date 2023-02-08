@@ -377,7 +377,7 @@ module.exports = [
                 responses: [
                     {
                         id: 468, 
-                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. :woman_in_steamy_room::avocado: #MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3WAtDZt"
+                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. 🧖🥑 #MakeItBetter #SBLVII #Sweepstakes https://bit.ly/3WAtDZt"
                     }
                 ]
             }
