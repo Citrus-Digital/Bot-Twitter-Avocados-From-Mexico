@@ -333,11 +333,11 @@ module.exports = [
                     },
                     {
                         id: 459, 
-                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. 🧖"
+                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. 🧖 https://bit.ly/3WAtDZt"
                     },
                     {
                         id: 460, 
-                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. 🧖"
+                        response: "Knowledge is good but isn’t Goodness Knowledge even better?! Keep picking up knowledge from the Tree of Goodness and go to the Inner Glow Spa for ultimate AvocaDo’s and AvocaDON’Ts. 🧖 https://bit.ly/3WAtDZt"
                     },
                     {
                         id: 461, 
